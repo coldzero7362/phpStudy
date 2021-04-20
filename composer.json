@@ -1,0 +1,22 @@
+{
+    "name": "coldzero/urlscanner",
+    "description": "self url Scanner",
+    "type": "library",
+    "license": "YYDH",
+    "authors": [
+        {
+            "name": "coldzero",
+            "email": "cksdud7362@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle" :"^6.2",
+        "league/csv" : "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "coldzero\\": "src/"
+        }
+    }
+}
